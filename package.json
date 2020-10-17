@@ -1,0 +1,36 @@
+{
+  "name": "bip85-js",
+  "version": "0.1.0",
+  "description": "Implementation of Bitcoin BIP 85",
+  "license": "MIT",
+  "repository": "hoganri/bip85-js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "bitcoin",
+    "entropy",
+    "bip39",
+    "bip32"
+  ],
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "prettier": "2.1.2",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "dependencies": {
+    "bip32": "^2.0.5",
+    "bip39": "^3.0.2",
+    "bitcoinjs-lib": "^5.2.0",
+    "bs58": "^4.0.1",
+    "ripple-bs58": "^4.0.1",
+    "wif": "^2.0.6"
+  }
+}
