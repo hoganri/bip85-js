@@ -15,6 +15,7 @@
   ],
   "keywords": [
     "bitcoin",
+    "bip85",
     "entropy",
     "bip39",
     "bip32"
